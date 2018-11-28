@@ -1,11 +1,9 @@
 ﻿namespace Logger.Layouts
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-    using Logger.Layouts.Contracts;
+    using Contracts;
 
     public class SimpleLayout : ILayout
     {
+        public string Format => "{0} - {1} - {2}";
     }
 }
